@@ -21,7 +21,23 @@ class ClassContoller extends Controller{
         return $this->respond($class, 200, 'Object found(Class)');
     }
 
-    public function new(){
-        $this -> fail(["Not used"],418);
+    function new() {
+        $this->fail(["Not used"], 418);
+    }
+
+    function edit() {
+        $this->fail(["Not used"], 418);
+    }
+
+    function create() {
+        $this->fail(["Not used"], 418);
+    }
+
+    function update() {
+        $this->fail(["Not used"], 418);
+    }
+
+    function delete() {
+        $this->fail(["Not used"], 418);
     }
 }
