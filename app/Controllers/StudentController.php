@@ -25,7 +25,23 @@ class StudentContoller extends Controller
         return $this->respond($student, 200, 'Object found(Student)');
     }
 
-    function new () {
+    function new() {
+        $this->fail(["Not used"], 418);
+    }
+
+    function edit() {
+        $this->fail(["Not used"], 418);
+    }
+
+    function create() {
+        $this->fail(["Not used"], 418);
+    }
+
+    function update() {
+        $this->fail(["Not used"], 418);
+    }
+
+    function delete() {
         $this->fail(["Not used"], 418);
     }
 }
