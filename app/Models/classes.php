@@ -1,13 +1,14 @@
 <?php
 
+namespace App\Models;
 use CodeIgniter\Model;
 
-class classes extends Model
+class Classes extends Model
 {
-    protected $table = [
-        'COMP0001' => ['id' => 1337, 'name' => 'Database', 'level' => 2],
-        'COMP0002' => ['id' => 1338, 'name' => 'C++', 'level' => 1],
-        'COMP0003' => ['id' => 1339, 'name' => 'Advanced Wingdings', 'level' => 1],
+    protected $data = [
+        '1337' => ['id' => '1337', 'name' => 'Database', 'level' => 2],
+        '1338' => ['id' => '1338', 'name' => 'C++', 'level' => 1],
+        '1339' => ['id' => '1339', 'name' => 'Advanced Wingdings', 'level' => 1],
     ];
 
     public function find($id = null)
